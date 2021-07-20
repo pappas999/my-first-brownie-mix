@@ -1,0 +1,13 @@
+compiler:
+    solc:
+        version: 0.7.3
+        optimizer:
+            enabled: true
+            runs: 200
+    vyper:
+        version: null
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+networks:
+  default: ganache
